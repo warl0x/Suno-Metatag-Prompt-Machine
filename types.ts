@@ -5,6 +5,12 @@ export interface GeneratedPrompt {
   structuredLyrics: string;
 }
 
+export interface Speaker {
+  id: string;
+  name: string;
+  voice: string;
+}
+
 export interface TagCategory {
   title: string;
   tags: string[];
